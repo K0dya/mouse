@@ -16,6 +16,6 @@ while True:
     thresh = cv2.inRange(hsv, h_min, h_max)
     template = cv2.bitwise_or(template, thresh)
     cv2.imshow("frame", frame)
-#    cv2.imshow("thresh", thresh)
+#    ы cv2.imshow("thresh", thresh)
     cv2.imshow("track", template)
     cv2.waitKey(1)

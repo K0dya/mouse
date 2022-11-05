@@ -5,7 +5,7 @@ import numpy as np
 
 cap = cv2.VideoCapture("Mouse1.mp4")
 first_frame = cap.read()[1]
-# cv2.imwrite("first_frame.jpg", first_frame)
+# ы cv2.imwrite("first_frame.jpg", first_frame)
 img = Image.open("first_frame.jpg")
 I = cv2.imread("first_frame.jpg")
 # cv2.imshow("fist_frame", first_frame)
